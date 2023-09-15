@@ -1,0 +1,141 @@
+
+$dark_blue: #0099ff;
+$light_blue: #a2d9ff;
+$white_color: #fff;
+
+$drk-lg-background: linear-gradient(to left, $dark_blue, $light_blue);
+// $carousel-indicator-width:70px;
+
+*{
+        margin: 0 ;
+        padding: 0 ;
+    
+    }
+
+body{
+        font-family: sans-serif;
+        }
+#nav-bar{
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        }
+.navbar{
+        background-image: $drk-lg-background;
+        padding: 0 ;
+        }
+
+.navbar-nav{
+    background-image: $drk-lg-background;
+    padding: 0 ;
+    border-radius: 8px;
+}
+.navbar-nav{
+    li{
+        padding: 0 10px;
+    }
+    a{
+        color: $white_color;
+        font-weight: 600;
+        float: right;
+        text-align: left;
+    }
+    
+}
+.navbar-brand img{
+        height: 40px;
+        width: 50px;
+        padding-left: 20px;
+    }
+
+.navbar-toggler{
+        outline: none ;
+        }
+
+#banner{
+        background-image: $drk-lg-background;
+        color: $white_color;
+        a{
+            text-decoration: none;
+            color: $white_color;
+            font-weight: bold;
+        }
+        }
+
+.aboutMe{
+    font-size: 40px;
+    font-weight: 600px;
+    margin-top: 150px;
+
+    
+}
+#smaller_logo{
+    height: 40px;
+    width: 50px;
+}
+
+.cat-button{
+    width: 45px;
+    margin: 20px;
+}
+// .frijol-adjust{
+//     height: 350px;
+//     width: 300px;
+//     display: flex;
+    
+
+// }
+
+.col-md-6{
+text-align: center;
+}
+.bottom-img{
+    width: 100%;
+}
+
+.img-fluid{
+    width: 20%;
+    height: 20%;
+    
+}
+.anime-names{
+    background-color: $dark_blue;
+    padding: 60px;
+    
+}
+.carousel{
+background-image: $drk-lg-background;
+padding: 10vh;
+}
+
+.frijol_section{
+    background-color: $light_blue;
+    p, h3{
+        color: $white_color;
+    }
+}
+
+.footer_sec{
+    background-image: $drk-lg-background;
+    
+    p, h3{
+        color: $white_color;
+    }
+}
+
+.carousel-inner{
+max-width: 450px;
+width: 100%;
+margin: auto;
+
+
+}
+.fun-fact{
+    margin-bottom: 0;
+}
+.cont_anime{
+    background-image: $drk-lg-background;
+}
+.carousel-bkg{
+    background-image: $drk-lg-background;
+}

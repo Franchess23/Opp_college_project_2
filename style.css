@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background-image: linear-gradient(to left, #0099ff, #a2d9ff);
+  padding: 0;
+}
+
+.navbar-nav {
+  background-image: linear-gradient(to left, #0099ff, #a2d9ff);
+  padding: 0;
+  border-radius: 8px;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+.navbar-nav a {
+  color: #fff;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+}
+
+.navbar-brand img {
+  height: 40px;
+  width: 50px;
+  padding-left: 20px;
+}
+
+.navbar-toggler {
+  outline: none;
+}
+
+#banner {
+  background-image: linear-gradient(to left, #0099ff, #a2d9ff);
+  color: #fff;
+}
+#banner a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.aboutMe {
+  font-size: 40px;
+  font-weight: 600px;
+  margin-top: 150px;
+}
+
+#smaller_logo {
+  height: 40px;
+  width: 50px;
+}
+
+.cat-button {
+  width: 45px;
+  margin: 20px;
+}
+
+.col-md-6 {
+  text-align: center;
+}
+
+.bottom-img {
+  width: 100%;
+}
+
+.img-fluid {
+  width: 20%;
+  height: 20%;
+}
+
+.anime-names {
+  background-color: #0099ff;
+  padding: 60px;
+}
+
+.carousel {
+  background-image: linear-gradient(to left, #0099ff, #a2d9ff);
+  padding: 10vh;
+}
+
+.frijol_section {
+  background-color: #a2d9ff;
+}
+.frijol_section p, .frijol_section h3 {
+  color: #fff;
+}
+
+.footer_sec {
+  background-image: linear-gradient(to left, #0099ff, #a2d9ff);
+}
+.footer_sec p, .footer_sec h3 {
+  color: #fff;
+}
+
+.carousel-inner {
+  max-width: 450px;
+  width: 100%;
+  margin: auto;
+}
+
+.fun-fact {
+  margin-bottom: 0;
+}
+
+.cont_anime {
+  background-image: linear-gradient(to left, #0099ff, #a2d9ff);
+}
+
+.carousel-bkg {
+  background-image: linear-gradient(to left, #0099ff, #a2d9ff);
+}/*# sourceMappingURL=style.css.map */
