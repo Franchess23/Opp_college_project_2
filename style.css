@@ -122,6 +122,7 @@ body a {
 
 .fun-fact {
   margin-bottom: 0;
+<<<<<<< HEAD
 }
 
 .cont_anime {
@@ -134,4 +135,6 @@ body a {
 
 .frijol_sec {
   background-image: linear-gradient(to left, #0099ff, #a2d9ff);
+=======
+>>>>>>> 126da1e (new test updaate)
 }/*# sourceMappingURL=style.css.map */
