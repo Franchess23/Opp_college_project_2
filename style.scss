@@ -14,6 +14,9 @@ $drk-lg-background: linear-gradient(to left, $dark_blue, $light_blue);
 
 body{
         font-family: sans-serif;
+        p, h1, h2, h3, h4, h5{
+            color: $white_color;
+        }
         a{color: $white_color;
         text-decoration: none;}
         }
@@ -55,57 +58,42 @@ body{
 
 #banner{
         background-image: $drk-lg-background;
-        color: $white_color;
+        
         a{
             text-decoration: none;
             
             font-weight: bold;
         }
-        }
+}
 
 .aboutMe{
     font-size: 40px;
     font-weight: 600px;
     margin-top: 150px;
-
-    
 }
 #smaller_logo{
     height: 40px;
     width: 50px;
+    display: inline-block;
 }
-
-.cat-button{
-    width: 45px;
-    margin: 20px;
-}
-// .frijol-adjust{
-//     height: 350px;
-//     width: 300px;
-//     display: flex;
-    
-
-// }
 
 .col-md-6{
 text-align: center;
+img{
+    text-align: right;
+
 }
+}
+
 .bottom-img{
     width: 100%;
 }
 
-.img-fluid{
-    width: 20%;
-    height: 20%;
-    
-    
-}
+
 .anime-names{
     background-color: $dark_blue;
     padding: 60px;
-    p,h4,h5{
-        color: $white_color;
-    }
+    
     
 }
 .carousel{
@@ -116,19 +104,31 @@ padding: 10vh;
 .frijol_section{
     background-color: $light_blue;
     padding: 70px;
-    p, h3{
-        color: $white_color;
-    }
+    
+
+    
+}
+.img-fluid{
+    width: 20%;
+    height: 20%;
+    text-align: right;
 }
 
 
 .footer_sec{
     background-image: $drk-lg-background;
     padding: 70px;
-    
-    p, h3{
-        color: $white_color;
+    footer{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
     }
+    
+    #instagram-footer{
+        justify-content: right;
+        padding-left: 700px;
+        flex-wrap: wrap;
+        }
 }
 
 .carousel-inner{
@@ -144,6 +144,9 @@ margin: auto;
 .cont_anime{
     background-image: $drk-lg-background;
 }
+.who_am_i{
+    background-color: $light_blue;
+}
 .carousel-bkg{
     background-image: $drk-lg-background;
 }
@@ -151,4 +154,19 @@ margin: auto;
     background-image: $drk-lg-background;
 
 
+}
+
+#me_and_frijol{
+width: 30%;
+height: 30%;
+display: inline-block;
+}
+
+
+.row{
+    width: 100%;
+    img{
+        padding-left: 100px;
+        min-width: 50%; 
+    }
 }

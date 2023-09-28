@@ -6,6 +6,9 @@
 body {
   font-family: sans-serif;
 }
+body p, body h1, body h2, body h3, body h4, body h5 {
+  color: #fff;
+}
 body a {
   color: #fff;
   text-decoration: none;
@@ -49,7 +52,6 @@ body a {
 
 #banner {
   background-image: linear-gradient(to left, #0099ff, #a2d9ff);
-  color: #fff;
 }
 #banner a {
   text-decoration: none;
@@ -65,32 +67,23 @@ body a {
 #smaller_logo {
   height: 40px;
   width: 50px;
-}
-
-.cat-button {
-  width: 45px;
-  margin: 20px;
+  display: inline-block;
 }
 
 .col-md-6 {
   text-align: center;
+}
+.col-md-6 img {
+  text-align: right;
 }
 
 .bottom-img {
   width: 100%;
 }
 
-.img-fluid {
-  width: 20%;
-  height: 20%;
-}
-
 .anime-names {
   background-color: #0099ff;
   padding: 60px;
-}
-.anime-names p, .anime-names h4, .anime-names h5 {
-  color: #fff;
 }
 
 .carousel {
@@ -102,16 +95,26 @@ body a {
   background-color: #a2d9ff;
   padding: 70px;
 }
-.frijol_section p, .frijol_section h3 {
-  color: #fff;
+
+.img-fluid {
+  width: 20%;
+  height: 20%;
+  text-align: right;
 }
 
 .footer_sec {
   background-image: linear-gradient(to left, #0099ff, #a2d9ff);
   padding: 70px;
 }
-.footer_sec p, .footer_sec h3 {
-  color: #fff;
+.footer_sec footer {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.footer_sec #instagram-footer {
+  justify-content: right;
+  padding-left: 700px;
+  flex-wrap: wrap;
 }
 
 .carousel-inner {
@@ -122,11 +125,14 @@ body a {
 
 .fun-fact {
   margin-bottom: 0;
-
 }
 
 .cont_anime {
   background-image: linear-gradient(to left, #0099ff, #a2d9ff);
+}
+
+.who_am_i {
+  background-color: #a2d9ff;
 }
 
 .carousel-bkg {
@@ -135,4 +141,18 @@ body a {
 
 .frijol_sec {
   background-image: linear-gradient(to left, #0099ff, #a2d9ff);
+}
+
+#me_and_frijol {
+  width: 30%;
+  height: 30%;
+  display: inline-block;
+}
+
+.row {
+  width: 100%;
+}
+.row img {
+  padding-left: 100px;
+  min-width: 50%;
 }/*# sourceMappingURL=style.css.map */
