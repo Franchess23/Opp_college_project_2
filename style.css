@@ -6,7 +6,7 @@
 body {
   font-family: sans-serif;
 }
-body p, body h1, body h2, body h3, body h4, body h5 {
+body p, body h1, body h2, body h3, body h4, body h5, body h6 {
   color: #fff;
 }
 body a {
@@ -38,6 +38,7 @@ body a {
   font-weight: 600;
   float: right;
   text-align: left;
+  color: #fff;
 }
 
 .navbar-brand img {
@@ -48,6 +49,13 @@ body a {
 
 .navbar-toggler {
   outline: none;
+}
+
+#me_and_frijol {
+  width: 45%;
+  height: 45%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #banner {
@@ -64,10 +72,8 @@ body a {
   margin-top: 150px;
 }
 
-#smaller_logo {
-  height: 40px;
-  width: 50px;
-  display: inline-block;
+.bottom-img {
+  width: 100%;
 }
 
 .col-md-6 {
@@ -77,50 +83,19 @@ body a {
   text-align: right;
 }
 
-.bottom-img {
-  width: 100%;
-}
-
-.anime-names {
-  background-color: #0099ff;
-  padding: 60px;
-}
-
 .carousel {
   background-image: linear-gradient(to left, #0099ff, #a2d9ff);
   padding: 10vh;
-}
-
-.frijol_section {
-  background-color: #a2d9ff;
-  padding: 70px;
-}
-
-.img-fluid {
-  width: 20%;
-  height: 20%;
-  text-align: right;
-}
-
-.footer_sec {
-  background-image: linear-gradient(to left, #0099ff, #a2d9ff);
-  padding: 70px;
-}
-.footer_sec footer {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-}
-.footer_sec #instagram-footer {
-  justify-content: right;
-  padding-left: 700px;
-  flex-wrap: wrap;
 }
 
 .carousel-inner {
   max-width: 450px;
   width: 100%;
   margin: auto;
+}
+
+.carousel-bkg {
+  background-image: linear-gradient(to left, #0099ff, #a2d9ff);
 }
 
 .fun-fact {
@@ -131,28 +106,47 @@ body a {
   background-image: linear-gradient(to left, #0099ff, #a2d9ff);
 }
 
+.anime-names {
+  background-color: #0099ff;
+  padding: 60px;
+}
+
 .who_am_i {
   background-color: #a2d9ff;
 }
-
-.carousel-bkg {
-  background-image: linear-gradient(to left, #0099ff, #a2d9ff);
+.who_am_i .my_background {
+  padding: 60px;
+  text-align: right;
 }
 
 .frijol_sec {
+  background-color: #a2d9ff;
+  display: flex;
+  flex-wrap: wrap;
+}
+.frijol_sec .frijol_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 70px 0 70px;
+}
+.frijol_sec .frijol_section div {
+  width: 50%;
+}
+.frijol_sec .frijol_section .img-fluid {
+  text-align: right;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 20%;
+}
+
+.footer_sec {
   background-image: linear-gradient(to left, #0099ff, #a2d9ff);
+  padding: 70px;
 }
-
-#me_and_frijol {
-  width: 30%;
-  height: 30%;
-  display: inline-block;
-}
-
-.row {
+.footer_sec footer {
+  display: flex;
   width: 100%;
-}
-.row img {
-  padding-left: 100px;
-  min-width: 50%;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=style.css.map */
